@@ -8,8 +8,8 @@ spec:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
     clusterName: kind
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - orez-fu
+    environmentGitOwner: orez-fu
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "orezfu.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
